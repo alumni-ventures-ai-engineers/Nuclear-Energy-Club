@@ -351,7 +351,7 @@ const MemberDeals = ({ deals, currentUser }) => {
       setInterestType('');
       setSelectedDeal(null);
     } catch (err) {
-      alert(`Error submitting interest: ${err.message}\n\nPlease contact us directly at nextgen@av.vc`);
+      alert(`Error submitting interest: ${err.message}\n\nPlease contact us directly at clubs@av.vc`);
     }
 
     setSubmitting(false);
