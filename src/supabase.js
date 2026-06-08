@@ -8,7 +8,7 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 // Maps this portal to its row in SB2 public.clubs. Used to scope dr_responses
 // (and meeting mirrors) by club so a member's decision in one club doesn't
 // bleed into another club they're also in.
-export const SB2_CLUB_SLUG = 'nuclear-and-energy-club-1'
+export const SB2_CLUB_SLUG = 'nuclear-energy'
 
 export const getDeviceId = () => {
   let deviceId = localStorage.getItem('ngvc_device_id')
